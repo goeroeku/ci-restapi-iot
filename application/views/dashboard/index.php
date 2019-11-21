@@ -14,7 +14,7 @@
 <div class="container">
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
-    <img src="<?php echo base_url().'assets/img/Lampu2.jpg'; ?>" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="<?php echo base_url().'assets/img/lampu-on.jpeg'; ?>" width="30" height="30" class="d-inline-block align-top" alt="">
     Smart Trash Bin
   </a>
 </nav>
