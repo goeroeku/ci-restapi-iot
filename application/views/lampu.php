@@ -154,12 +154,15 @@ input:checked + .slider:before {
 							"alat" : lampu,
 							"nilai" : nilai
 						};
+						console.log(values);
+						var json =JSON.stringify(values);
+						console.log(json);
             $.ajax({
                 type : 'POST',
                 url: uri,
                 dataType: 'json',
 								contentType: 'application/json',
-								data: values,
+								data: json,
                 cache: false,
                 success: function(data) {
                   $('#'+lampu).html(data['status']+' '+data['message']);
