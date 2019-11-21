@@ -60,7 +60,7 @@ input:checked + .slider:before {
 <div class="container">
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
-    <img src="<?=base_url().'assets/img/lampu-on.jpg'?>" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="<?=base_url().'assets/img/lampu-on.jpeg'?>" width="30" height="30" class="d-inline-block align-top" alt="">
     Smart Home: Kendali Lampu
   </a>
 </nav>
