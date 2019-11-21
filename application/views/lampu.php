@@ -144,14 +144,22 @@ input:checked + .slider:before {
         }
       function SentLampuAjax(lampu) {
             var  nil = $('#'+lampu+'Slider').is(':checked');
+            uri="http://3.134.80.136/iot/api/iot/tambah";
             if(nil)
-              uri="http://3.134.80.136/iot/api/iot/tambah/?alat="+lampu+"&nilai=1";
-            else
-              uri="http://3.134.80.136/iot/api/iot/tambah/?alat="+lampu+"&nilai=0";
+							nilai = 1;
+						else
+							nilai = 0;
+
+						var values = {
+							"alat" : lampu,
+							"nilai" : nilai
+						};
             $.ajax({
-                type : 'GET',
+                type : 'POST',
                 url: uri,
                 dataType: 'json',
+								contentType: 'application/json',
+								data: values,
                 cache: false,
                 success: function(data) {
                   $('#'+lampu).html(data['status']+' '+data['message']);
