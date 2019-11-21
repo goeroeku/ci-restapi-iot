@@ -57,7 +57,7 @@
 
               $.ajax({
                 type : 'GET',
-                url: 'http://iot.smkn1tebas.sch.id/api/stb/baca/?alat=Tong1',
+                url: 'http://3.134.80.136/iot/api/iot/baca/?alat=Tong1',
                 dataType: 'json',
                 cache: false,
                 success: function(data) {
