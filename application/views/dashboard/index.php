@@ -4,17 +4,17 @@
 <title>Smart Trash Bin</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="<?php echo base_url().'assets/bootstrap4/css/bootstrap.min.css'?>">
-    <script src="<?php echo base_url().'assets/jquery/jquery-3.3.1.min.js'?>"></script>
-    <script src="<?php echo base_url().'assets/popper/popper.min.js'?>"></script>
-    <script src="<?php echo base_url().'assets/bootstrap4/js/bootstrap.min.js'?>"></script>
+    <link rel="stylesheet" href="<?php echo base_url().'assets/bootstrap4/css/bootstrap.min.css'; ?>">
+    <script src="<?php echo base_url().'assets/jquery/jquery-3.3.1.min.js'; ?>"></script>
+    <script src="<?php echo base_url().'assets/popper/popper.min.js'; ?>"></script>
+    <script src="<?php echo base_url().'assets/bootstrap4/js/bootstrap.min.js'; ?>"></script>
 
 </head>
 <body>
 <div class="container">
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
-    <img src="<?php echo base_url().'assets/img/Lampu2.jpg'?>" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="<?php echo base_url().'assets/img/Lampu2.jpg'; ?>" width="30" height="30" class="d-inline-block align-top" alt="">
     Smart Trash Bin
   </a>
 </nav>
